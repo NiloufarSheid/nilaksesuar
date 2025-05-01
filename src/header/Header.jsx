@@ -81,10 +81,10 @@ export default function Header() {
       <AppBar position="sticky" sx={{ backgroundColor: '#5b744b ', width: '100%' }}>
         <Toolbar>
           {/* Logo Image */}
-          <img src="public/logo.jpg" alt="Logo" style={{ height: '20px', marginRight: '16px' }} />
+          <img src="images/logo.jpg" alt="Logo" style={{ height: '40px', marginRight: '16px' }} />
           
           <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
-            x company
+            infinite home
           </Typography>
           {/* Search Bar */}
           <Search>
